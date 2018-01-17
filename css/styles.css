@@ -1,0 +1,99 @@
+﻿header {
+    margin-bottom: 40px;
+}
+
+footer {
+    position: fixed;
+    height: 40px;
+    width: 100%;
+    bottom: 0;
+    background-color: #000;
+    color: #efefef;
+}
+
+footer .copyright {
+    line-height: 40px;
+}
+
+body {
+    margin-bottom: 50px;
+}
+
+.marker {
+    display: none;
+}
+
+.image {    
+    height: 280px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.button-wrapper {
+    border: 2px #000 solid;
+    border-radius: 4px;
+    display: inline-block;
+    transition: all 0.4s;
+}
+
+.button-wrapper:hover {
+    box-shadow: 0 0 20px #000;
+}
+
+#swap-image {
+    background: #222;
+    color: #efefef;
+    padding: 10px;
+    border: 2px #efefef solid;
+    border-radius: 4px;
+}
+
+@media only screen and (min-width: 768px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .marker {
+        visibility: visible;
+        display: block;
+        position: relative;
+        right: -18px;
+    }
+
+    .marker .rectangle {
+        width: 36px;
+        height: 70px;
+        background: #ccc;
+    }
+
+    .marker .square {
+        height: 26px;
+        width: 26px;
+        background: white;
+        transform: rotate(45deg);
+        position: relative;
+        top: -12px;
+        left: 5px;
+    }
+
+    .content-part {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+
+    .reversed {
+        flex-direction: row-reverse;
+    }
+
+    .text-container {
+        width: 50%;
+    }
+
+    .image-container {
+        width: 40%;
+    }
+}
