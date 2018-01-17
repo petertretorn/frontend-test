@@ -35,7 +35,6 @@ body {
     border: 2px #000 solid;
     border-radius: 4px;
     display: inline-block;
-    transition: all 0.4s;
 }
 
 #swap-button {
@@ -46,7 +45,6 @@ body {
         #333 10px,
         #333 20px
       );
-    /* background: #222; */
     color: #efefef;
     padding: 10px;
     border: 2px #fff solid;
@@ -70,7 +68,6 @@ body {
     }
     
     .marker {
-        visibility: visible;
         display: block;
         position: relative;
         right: -18px;

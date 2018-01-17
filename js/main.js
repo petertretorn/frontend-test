@@ -1,5 +1,7 @@
-(function ($) {
+'use strict';
 
+(function ($) {
+ 
     $(document).ready(function () {
 
         var images = ['SKAT_om_os.jpg', 'SKAT_job.jpg'],
