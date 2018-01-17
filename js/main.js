@@ -15,7 +15,7 @@
             return image;
         }
 
-        $('#swap-image').click(function () {
+        $('#swap-button').click(function () {
             var background = undefined;
 
             $('.image').each(function () {

@@ -38,16 +38,29 @@ body {
     transition: all 0.4s;
 }
 
-.button-wrapper:hover {
-    box-shadow: 0 0 20px #000;
-}
-
-#swap-image {
-    background: #222;
+#swap-button {
+    background: repeating-linear-gradient(
+        -60deg,
+        #000,
+        #000 10px,
+        #333 10px,
+        #333 20px
+      );
+    /* background: #222; */
     color: #efefef;
     padding: 10px;
-    border: 2px #efefef solid;
+    border: 2px #fff solid;
     border-radius: 4px;
+}
+
+#swap-button:hover {
+    background: repeating-linear-gradient(
+        -60deg,
+        #333,
+        #333 10px,
+        #000 10px,
+        #000 20px
+      );
 }
 
 @media only screen and (min-width: 768px) {
